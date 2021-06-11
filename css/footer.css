@@ -1,0 +1,32 @@
+#footer>#logo{
+    width: 200px;
+    height: 100px;
+    background-color: firebrick;
+    float: left;
+}
+#footer>#footer-right{
+    width: 600px;
+    height: 100px;
+    background-color: forestgreen;
+    float: left;
+}
+
+#footer>#footer-right>#bot-menu {
+    width: 600px;
+    height: 50px;
+    background-color: goldenrod;
+} 
+#bot-menu>ul {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+#bot-menu>ul>li {
+    float: left;
+    margin-right: 10px;
+}
+#copyright>#address {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}

@@ -1,0 +1,40 @@
+
+#header>#logo>img {
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+#nav>#gnb {
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+#gnb>li>a {
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: indianred;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+#gnb>li>a:hover {
+    background-color: #222328;
+    color: #ffffff;
+}
+#lnb>li>a {
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: indigo;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+#lnb {
+    display: none;
+}

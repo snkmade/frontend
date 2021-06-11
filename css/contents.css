@@ -1,0 +1,109 @@
+#contents>#cont1 {
+    width:320px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+#cont1>#tab {
+    width: 320px;
+    height: 190px;
+    background-color: antiquewhite;
+}
+#cont1>#tab>#tab-btn {
+    width: 320px;
+    height: 30px;
+    background-color: antiquewhite;
+}
+#cont1>#tab>#tab-btn>a {
+    display: inline;
+    width: 100px;
+    height: 30px;
+    background-color: aqua;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#cont1>#tab>#tab-contents {
+    width: 320px;
+    height: 30px;
+    background-color: rgb(107, 97, 84);
+}
+#tab-contents>#notics {
+    width: 320px;
+    height: 150px;
+    background-color: rgb(77, 11, 25);
+   }
+#notics>ul {
+    width: 320px;
+    height: 150px;
+    background-color: beige;
+    font-size: 12px;
+}
+#notics>ul>li>a {
+    width: 315px;
+    height: 35px;
+    background-color: blueviolet;
+    display: block;
+    position: relative;
+}
+#notics>ul>li>a>span:first-child {
+    float: left;
+    width: 250px;
+    height: 35px;
+    background-color: chartreuse;
+    white-space: nowrap;
+}
+#notics>ul>li>a>span:nth-child(2) {
+    float: left;
+    width:65px;
+    height: 35px;
+    background-color: rgb(50, 75, 25);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    left: 250px;
+    top: 0px;
+}
+
+
+#tab-contents>#gallery {
+    width: 320px;
+    height: 155px;
+    background-color: rgb(107, 97, 84);
+    display: none;
+
+}
+#gallery>ul {
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+#gallery>ul>li {
+    float: left;
+    margin-right: 10px;
+}
+#gallery>ul>li>img {
+    width: 80px;
+    height: 80px;
+}
+#contents>#cont2 {
+    width:320px;
+    height: 160px;
+    background-color: #ffffff;
+    float: left;
+}
+#contents>#cont2>img {
+    width: 220px;
+    height: 50px;
+
+}
+#contents>#cont3 {
+    width:240px;
+    height: 200px;
+    background-color: darkred;
+    float: left;
+}
